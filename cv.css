@@ -37,6 +37,7 @@ a:hover {
 }
 
 
+
 /* Estilos de Clases */
 
 
@@ -151,23 +152,16 @@ a:hover {
 }
 
 .download {
-    height: 50px;
-    width: 100%;
-    /* padding: 0px 20px;*/
-    margin: 30px 225px; 
+    grid-column: 3/ 3;
+    margin: 20px;
     background-color:#10253f;
-    border-radius: 25px;
-    border-color: whitesmoke;
-    box-shadow: 5px whitesmoke;
-    font-size: 18px;
     color: whitesmoke;
     text-align: center;
-    /* align-content: center; */
     cursor: pointer;
 }
 
 .download:hover {
-    box-shadow: 50px whitesmoke;
     background-color: whitesmoke;
+    border-radius: 25px;
     color: #10253f;
 }
