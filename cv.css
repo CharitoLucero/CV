@@ -34,6 +34,7 @@ a:visited {
 
 a:hover {
    text-decoration: underline;
+   font-weight: bold;
 }
 
 
@@ -158,10 +159,108 @@ a:hover {
     color: whitesmoke;
     text-align: center;
     cursor: pointer;
+   
+
 }
 
 .download:hover {
     background-color: whitesmoke;
     border-radius: 25px;
     color: #10253f;
+   
 }
+
+
+/* Medias queries para dispositivos*/
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width:1023px){
+
+    .name{ 
+        font-size: 5vw;
+    }
+
+    .training{
+        display: none;
+    }
+
+    img{
+        display: none;
+    }
+
+    #banner{
+        height: 400px;
+    }
+    .experience {
+        height: 200px;
+    }
+ 
+    .container {
+        max-width: 720px;
+    }
+ 
+    img{
+        padding: 0px 75px;
+    }
+ 
+    #footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+    
+
+
+/* CEULARES */
+
+@media screen and (max-width: 767px) {
+    h2 {
+        font-size: 3vw;
+    }
+ 
+    .h2-subtitle {
+        font-size: 5vw;
+    }
+ 
+    .cotact-text {
+        display: none;
+    }
+ 
+    .logo-text {
+        display: none;
+    }
+ 
+    #banner {
+        height: 300px;
+    }
+ 
+    #serch {
+        height: 200px;
+    }
+ 
+    .container {
+        max-width: 420px;
+    }
+ 
+    .car-banner {
+        padding: 0px 50px;
+    }
+ 
+    .cotact {
+        font-size: 1vh;
+    }
+ 
+    #footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+ 
+    #footer a {
+        padding: 2px 0px;
+    }
+ }
+ 
