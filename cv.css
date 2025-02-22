@@ -174,41 +174,15 @@ a:hover {
 /* Medias queries para dispositivos*/
 
 /* TABLET */
-@media screen and (min-width: 768px) and (max-width:1023px){
+@media screen and (min-width: 768px) and (max-width:950px){
 
-    .name{ 
-        font-size: 5vw;
-    }
+    h1{ 
+        font-size: 3vw;
+        padding-bottom: 10%;
+        
+    } 
 
-    .training{
-        display: none;
-    }
-
-    img{
-        display: none;
-    }
-
-    #banner{
-        height: 400px;
-    }
-    .experience {
-        height: 200px;
-    }
- 
-    .container {
-        max-width: 720px;
-    }
- 
-    img{
-        padding: 0px 75px;
-    }
- 
-    #footer {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
+    
 }
 
     
@@ -217,50 +191,15 @@ a:hover {
 /* CEULARES */
 
 @media screen and (max-width: 767px) {
-    h2 {
+    h1 {
         font-size: 3vw;
+        padding: 5% 0% 5% 0%;
+       
     }
- 
-    .h2-subtitle {
-        font-size: 5vw;
+
+    .experience-title{
+        padding-bottom: 10%;
     }
- 
-    .cotact-text {
-        display: none;
-    }
- 
-    .logo-text {
-        display: none;
-    }
- 
-    #banner {
-        height: 300px;
-    }
- 
-    #serch {
-        height: 200px;
-    }
- 
-    .container {
-        max-width: 420px;
-    }
- 
-    .car-banner {
-        padding: 0px 50px;
-    }
- 
-    .cotact {
-        font-size: 1vh;
-    }
- 
-    #footer {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
- 
-    #footer a {
-        padding: 2px 0px;
-    }
+
  }
  
