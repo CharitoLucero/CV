@@ -9,12 +9,28 @@ img {
     object-fit: cover;
     -o-object-fit: cover;
     border-radius: 100px;
+    /* position: center;
+    overflow: hidden; */
     /* box-shadow:5px var(--fifth-color); */
     /* transition: heigtht .5s; */
     /* interpolate-size: allow-kerywords; */
-    
-
+    /* scroll-snap-align: center; */
+    /* animation: slide 20s infinite alternate ease-in-out; */
 }
+
+/* @keyframes slide {
+    0% {margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+} */
 
 span {
     font-weight: bold;
@@ -57,6 +73,8 @@ a:hover {
     text-align: center;
     grid-row: 1 / 2;
     height: 200px;
+    
+   /* scroll-snap-type: x mandatory; */
 }
 
 .name-title {
@@ -195,29 +213,35 @@ a:hover {
         grid-row: 1 / 2;
         height: 100%;
     }
+
     .objetive {
         grid-column: 1/span 6;
         grid-row: 2 / 3;
         height: 100%;
     }
+
     .personal-data{
         grid-column: 1/ span 6;
         grid-row: 3/ 4;
         height: 100%;
     }
+
     .skill{
         grid-column: 1/ span 6;
         grid-row: 4/ 5;
         height: 100%;
     }
+
     .training{
         grid-column: 1/ span 6;
         grid-row: 5/ 6;
     }
+
     .experience{
         grid-column: 1 / span 6;
         grid-row: 6/ 7;
     }
+
    .download{
     grid-column: 3 / 5;
    }
