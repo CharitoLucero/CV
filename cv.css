@@ -174,32 +174,52 @@ a:hover {
 /* Medias queries para dispositivos*/
 
 /* TABLET */
-@media screen and (min-width: 768px) and (max-width:950px){
+@media screen and (min-width: 768px) and (max-width:1023px){
 
     h1{ 
-        font-size: 3vw;
-        padding-bottom: 10%;
+        font-weight: 5vw;
+        padding-bottom: 2%;
         
     } 
-
     
 }
 
-    
 
 
 /* CEULARES */
 
-@media screen and (max-width: 767px) {
-    h1 {
-        font-size: 3vw;
-        padding: 5% 0% 5% 0%;
-       
-    }
+@media screen and (max-width: 767px) { 
 
-    .experience-title{
-        padding-bottom: 10%;
+    .name{
+        grid-column: 1/ span 6;
+        grid-row: 1 / 2;
+        height: 100%;
     }
-
+    .objetive {
+        grid-column: 1/span 6;
+        grid-row: 2 / 3;
+        height: 100%;
+    }
+    .personal-data{
+        grid-column: 1/ span 6;
+        grid-row: 3/ 4;
+        height: 100%;
+    }
+    .skill{
+        grid-column: 1/ span 6;
+        grid-row: 4/ 5;
+        height: 100%;
+    }
+    .training{
+        grid-column: 1/ span 6;
+        grid-row: 5/ 6;
+    }
+    .experience{
+        grid-column: 1 / span 6;
+        grid-row: 6/ 7;
+    }
+   .download{
+    grid-column: 3 / 5;
+   }
  }
  
