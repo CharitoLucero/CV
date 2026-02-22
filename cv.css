@@ -131,6 +131,25 @@ a:hover {
     margin-right: 200px;
 }
 
+
+
+.proyect {
+      grid-column: 1 / 4;
+      
+      color: whitesmoke;
+      grid-row: 6 / 7;
+      padding: 0px 30px 30px 50px; 
+    
+
+}
+
+.proyect-title {
+    
+    border-bottom-style: outset;
+    margin-right: 200px;
+}
+
+
 .training {
     grid-column: 4 / 7;
     grid-row: 1 / 4;
